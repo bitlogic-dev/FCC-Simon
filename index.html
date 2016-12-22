@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <link href='css/simon-style.css' rel='stylesheet' />
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js'
+			  integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8='
+			  crossorigin='anonymous'></script>
+  <script src='js/simon.js'></script>
+</head>
+
+<div class='wrap'>
+  <div class='game-container'>
+    <div id='panels' class='game-outer'>
+			<div id='0' class='panel green top-left'></div>
+			<div id='1' class='panel red top-right'></div>
+			<div id='2' class='panel yellow bottom-left'></div>
+			<div id='3' class='panel blue bottom-right'></div>
+      <div class='game-inner'>
+    		<div id='display' class='display'>Off</div>
+    		<div class='brand'>Simon</div>
+        <div class='controls centered flex'>
+          <div id='start' class='control-btn'>Start</div>
+          <div class='power-wrap flex'>
+            <div id='power' class='centered control-btn'>Off</div>
+          </div>
+      		<div id='strict' class='control-btn'>Strict</div>
+        </div>
+    	</div>
+		</div>
+	</div>
+</div>
+</html>
